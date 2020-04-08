@@ -1,0 +1,6 @@
+tools/descartes/teastore/auth/security/ConstantKeyProviderTest.class
+tools/descartes/teastore/auth/rest/CartTest.class
+tools/descartes/teastore/auth/rest/AbstractStoreRestTest.class
+tools/descartes/teastore/auth/rest/LoginLogoutTest.class
+tools/descartes/teastore/auth/rest/EmptyAuthStartup.class
+tools/descartes/teastore/auth/security/ShaSecurityProviderTest.class

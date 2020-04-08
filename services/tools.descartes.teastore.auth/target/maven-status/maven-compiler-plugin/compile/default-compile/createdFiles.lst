@@ -1,0 +1,11 @@
+tools/descartes/teastore/auth/rest/ReadyRest.class
+tools/descartes/teastore/auth/startup/AuthStartup.class
+tools/descartes/teastore/auth/security/ConstantKeyProvider.class
+tools/descartes/teastore/auth/security/ShaSecurityProvider.class
+tools/descartes/teastore/auth/security/RandomSessionIdGenerator.class
+tools/descartes/teastore/auth/security/ISecurityProvider.class
+tools/descartes/teastore/auth/security/ISessionIdGenerator.class
+tools/descartes/teastore/auth/rest/AuthUserActionsRest.class
+tools/descartes/teastore/auth/security/IKeyProvider.class
+tools/descartes/teastore/auth/security/BCryptProvider.class
+tools/descartes/teastore/auth/rest/AuthCartRest.class

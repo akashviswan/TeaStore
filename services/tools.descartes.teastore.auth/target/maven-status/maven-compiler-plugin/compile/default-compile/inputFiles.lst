@@ -1,0 +1,11 @@
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/BCryptProvider.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/rest/AuthCartRest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/IKeyProvider.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/rest/ReadyRest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ConstantKeyProvider.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ISessionIdGenerator.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/rest/AuthUserActionsRest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/RandomSessionIdGenerator.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/startup/AuthStartup.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ShaSecurityProvider.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ISecurityProvider.java

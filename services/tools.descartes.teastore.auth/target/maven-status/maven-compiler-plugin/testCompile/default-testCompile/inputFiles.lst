@@ -1,0 +1,6 @@
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/test/java/tools/descartes/teastore/auth/security/ShaSecurityProviderTest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/test/java/tools/descartes/teastore/auth/rest/EmptyAuthStartup.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/test/java/tools/descartes/teastore/auth/rest/LoginLogoutTest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/test/java/tools/descartes/teastore/auth/security/ConstantKeyProviderTest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/test/java/tools/descartes/teastore/auth/rest/AbstractStoreRestTest.java
+/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/test/java/tools/descartes/teastore/auth/rest/CartTest.java

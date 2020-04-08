@@ -1,0 +1,25 @@
+#Download base image debian latest
+FROM ubuntu:latest as build
+
+# Update Software repository
+RUN apt-get update && apt-get -y upgrade
+ 
+# Install java and tomcat 
+RUN apt-get install -y openjdk-8-jdk wget git maven
+
+
+
+
+#Copy source
+ADD . ./
+
+
+
+#RUN mvn clean install -DskipTests
+
+From teastore_base:latest
+
+
+#Copy war file
+
+COPY --from=build  services/tools.descartes.teastore.persistence/target/tools.descartes.teastore.persistence.war /usr/local/tomcat/webapps/

@@ -1,0 +1,4 @@
+FROM akashviswan/teastore-alpine-base:latest
+MAINTAINER Chair of Software Engineering <se2-it@informatik.uni-wuerzburg.de>
+
+COPY target/*.war /opt/tomcat/webapps/

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/startup/AuthStartup.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/rest/AuthUserActionsRest.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/rest/ReadyRest.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/rest/AuthCartRest.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ConstantKeyProvider.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ShaSecurityProvider.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ISessionIdGenerator.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/BCryptProvider.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/IKeyProvider.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/RandomSessionIdGenerator.java">
+</file>
+<file name="/home/innovation/sre/TeaStore/services/tools.descartes.teastore.auth/src/main/java/tools/descartes/teastore/auth/security/ISecurityProvider.java">
+</file>
+</checkstyle>

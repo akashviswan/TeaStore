@@ -1,0 +1,6 @@
+FROM akashviswan/teastore-alpine-base:latest
+MAINTAINER Chair of Software Engineering <se2-it@informatik.uni-wuerzburg.de>
+
+COPY target/*.war /opt/tomcat/webapps/
+
+CMD java -jar /opt/tomcat/bin/dockermemoryconfigurator.jar ${TOMCAT_HEAP_MEM_PERCENTAGE}; /opt/tomcat/bin/start.sh && /opt/tomcat/bin/catalina.sh run
