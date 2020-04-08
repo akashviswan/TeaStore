@@ -3,12 +3,12 @@
 ## 1. Multi Stage build
  
 Use docker files
-sudo docker build --no-cache=true -t akashviswan/teastore-auth -f Dockerfile-ubuntu-auth
-sudo docker build --no-cache=true -t akashviswan/teastore-image -f Dockerfile-ubuntu-image
-sudo docker build --no-cache=true -t akashviswan/teastore-persistance -f Dockerfile-ubuntu-persistance
-sudo docker build --no-cache=true -t akashviswan/teastore-recomendor -f Dockerfile-ubuntu-recomendor
-sudo docker build --no-cache=true -t akashviswan/teastore-registry -f Dockerfile-ubuntu-registry
-sudo docker build --no-cache=true -t akashviswan/teastore-webui -f Dockerfile-ubuntu-webui    
+   docker build --no-cache=true -t akashviswan/teastore-auth -f Dockerfile-ubuntu-auth
+   docker build --no-cache=true -t akashviswan/teastore-image -f Dockerfile-ubuntu-image
+   docker build --no-cache=true -t akashviswan/teastore-persistance -f Dockerfile-ubuntu-persistance
+   docker build --no-cache=true -t akashviswan/teastore-recomendor -f Dockerfile-ubuntu-recomendor
+   docker build --no-cache=true -t akashviswan/teastore-registry -f Dockerfile-ubuntu-registry
+   docker build --no-cache=true -t akashviswan/teastore-webui -f Dockerfile-ubuntu-webui    
  ## 2. Alpine 
  # 1 Build
         ./docker_build_alpine.sh
