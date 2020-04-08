@@ -2,7 +2,7 @@
 
 ## 1. Multi Stage build
  
-Use docker files
+  # Use docker files
    docker build --no-cache=true -t akashviswan/teastore-auth -f Dockerfile-ubuntu-auth
    docker build --no-cache=true -t akashviswan/teastore-image -f Dockerfile-ubuntu-image
    docker build --no-cache=true -t akashviswan/teastore-persistance -f Dockerfile-ubuntu-persistance
