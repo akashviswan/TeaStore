@@ -1,0 +1,51 @@
+version: '3'
+services:
+  registry:
+    image: akashviswan/teastore-debian-registry
+    expose:
+      - "8080"
+  db:
+    image: descartesresearch/teastore-db
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+  persistence:
+    image: akashviswan/teastore-debian-persistence
+    expose:
+      - "8080"
+    environment:
+      HOST_NAME: "persistence"
+      REGISTRY_HOST: "registry"
+      DB_HOST: "db"
+      DB_PORT: "3306"
+  auth:
+    image: akashviswan/teastore-debian-auth
+    expose:
+      - "8080"
+    environment:
+      HOST_NAME: "auth"
+      REGISTRY_HOST: "registry"
+  image:
+    image: akashviswan/teastore-debian-image
+    expose:
+      - "8080"
+    environment:
+      HOST_NAME: "image"
+      REGISTRY_HOST: "registry"
+  recommender:
+    image: akashviswan/teastore-debian-recommender
+    expose:
+      - "8080"
+    environment:
+      HOST_NAME: "recommender"
+      REGISTRY_HOST: "registry"
+  webui:
+    image: akashviswan/teastore-debian-webui
+    expose:
+      - "8080"
+    environment:
+      HOST_NAME: "webui"
+      REGISTRY_HOST: "registry"
+    ports:
+      - "8080:8080"
